@@ -1,0 +1,33 @@
+/*-----------------------------[main-style]-----------------------------*/
+/*-----------------------------[main-style]-----------------------------*/
+
+#navbar{
+	margin:20px;
+	height:40px;
+	background-color:tomato;
+	border:2px solid black;
+}
+
+#navbar ul{list-style:none;margin:0px;}
+
+#navbar ul li{float:right;}
+
+#navbar ul li a{
+	display:inline-block;
+	height:30px;
+	width:100px;
+	margin:0px;
+	padding:5px;
+	background-color:tomato;
+	text-decoration:none;
+	font-size:1.3em;
+	font-weight:90%;
+	text-align:center;
+	font-family:tahoma;
+	color:black;
+}
+
+#navbar ul li a:hover{
+	background-color:black;
+	color:tomato;
+}
